@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+      
+      
+}
+
+.navlogo{
+    color: blue;
+}
+.navbarlinkbox div a{
+    text-decoration: none;
+    color: rgb(87, 75, 75);
+}
+.linkbox a{
+    text-decoration: none;
+    color: rgb(87, 75, 75);
+    font-weight: 700 !important;
+}
+.gitlink{
+    color:  black;
+    font-size: 1.4rem;
+}
+.iconsbox i{
+    font-size: 1.4rem;
+}
+
+/* custom media query  */
+@media (min-width:0) and (max-width:992px){
+    .brandname{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .navbarlinkbox{
+        margin: 0 auto;
+        font-size: 1.2rem;
+    }
+    .pricingheadbox{
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width:765px) and (max-width:992px){
+    .brandname{
+       
+    }
+    .navbarlinkbox{
+        font-size: 1.2rem !important;
+    }
+}
